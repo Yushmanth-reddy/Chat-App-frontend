@@ -17,7 +17,6 @@ const ProfilePage = () => {
       await updateProfile({ profilepic: base64URL });
     };
   };
-  console.log(authUser.profilePic);
 
   return (
     <div className="h-screen pt-20">
